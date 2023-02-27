@@ -6,7 +6,7 @@ function ADMMdecoder(DecoderMethod, F_list, γ, maxIteration, ϵ, μ, ρ, α, N_
     # This function applies non-penalized/l2-penalized ADMM-LP decoding.
     #
     # DecoderMethod: "LP" for non-penalized, "L2" for l2-penalized decoder
-    # F_list: parity check matrix given in the format of a F_list
+    # F_list: parity check matrix given in the format of a list
     # γ: the Log Likelihood Ratio (LLR) vector of size N
     # maxIteration: the maximum allowed number of iterations
     # ϵ: stopping precision, usually set to 10^(-5)
