@@ -25,8 +25,6 @@ function ADMMdecoder(DecoderMethod, F_list, γ, maxIteration, ϵ, μ, ρ, α, N_
     # Returns:
     # x_dec: a binary (0/1) array of size N, the decoded output
     # iter: the number of iterations it took for the decoder to decode
-    # feas1_vec: the primal residual vector at convergence (the last iteration)
-    # feas2_vec: the dual residual vector at convergence (the last iteration)
     #
     ###
 
